@@ -18,8 +18,8 @@
 
 
 ## General Information
-- Motivation: Interested in learning more about nightly price influences and trends in Boston Airbnb market
-
+- Motivation: Interested in learning a foundational knowledge of machine learning algorithms. This project provided a great introduction into machine learning libraries and the general process and steps taken in constructing a model from scratch.
+- Skills Learned: Debugging, terminal commands, encapsulation of application functionality into multiple modules and machine learning algorithms/libraries.
 
 ## Files
 - disaster_categories.csv - csv file that houses categorical message data used in training set
@@ -51,24 +51,27 @@
 
 ## Features
 - Message Classifier
+![image](https://user-images.githubusercontent.com/70555199/125826316-035a5a3d-17ef-4657-a535-9f26f6712d7d.png)
 
 - Overview of training data set used to train model
+![image](https://user-images.githubusercontent.com/70555199/125826492-e0529ec9-a411-45db-81d5-76bdd445c3c7.png)
 
 
 ## Setup
-Anaconda Distribution
+- Anaconda Distribution
+- IDE such as Microsoft Visual Studio Code
 
 
 ## Project Status
-Complete
+- Work In Progress (WIP) - Attempting to create virtual environment on cloud platform to better showcase application
 
 
 ## Conclusion
-
+ - Machine learning classification model is a powerful tool that can help first responders classify distress messages into categories. This can help first responders provide aid more effectively and timely in a fast-paced, high stress disaster scenario.
 
 
 ## Room for Improvement
-- Hyperparameter tuning in random forest classifier. Due to machine processing limitations only selected n__estimator parameter for tuning. Model can be improved further.
+- Hyperparameter tuning in random forest classifier. Due to machine processing limitations I only selected n__estimator parameter for optimization. Model can be improved further.
 - Training dataset does not include certain categories. No matter how tuned the model is, it cannot overcome a lack of categorical data in the training dataset.
 
 
