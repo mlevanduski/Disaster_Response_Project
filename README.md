@@ -4,6 +4,7 @@
 
 ## Table of Contents
 * [General Info](#general-information)
+* [How to Run](#how-to-run)
 * [Files](#files)
 * [Technologies Used](#technologies-used)
 * [Libraries Used](#libraries-used)
@@ -21,6 +22,14 @@
 - Motivation: Interested in learning a foundational knowledge of machine learning algorithms. This project provided a great introduction into machine learning libraries and the general process and steps taken in constructing a model from scratch.
 - Skills Learned: Debugging, terminal commands, encapsulation of application functionality into multiple modules and machine learning algorithms/libraries.
 
+
+## How to Run
+1. Run the main() function in the process_data.py module - This will extract the data from the csv source files, transform, and load the data to a sqlite data table. Example from root directory: "python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db"
+3. Run the main() function in the train_classifier.py module - This will use the sqlite data table to train a machine learning model. The model is dumped to a pickle file. Example from root directory: "python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl"
+4. Run the terminal command "python run.py" in the app directory to run the web app
+5. Go to http://127.0.0.1/
+
+
 ## Files
 - disaster_categories.csv - csv file that houses categorical message data used in training set
 - disaster_messages.csv - csv file that houses message body data used in training set
@@ -29,6 +38,7 @@
 - run.py - python3 file that utilizes Flask as a back-end web framework
 - go.html - html file for web app front end displayed when user enters and submits message
 - master.html - html file for web app front end displaying plotly graphs prior to user input
+
 
 ## Technologies Used
 - Python3
