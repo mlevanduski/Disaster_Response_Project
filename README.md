@@ -24,8 +24,8 @@
 
 
 ## How to Run
-1. Run the main() function in the process_data.py module - This will extract the data from the csv source files, transform, and load the data to a sqlite data table. Example from root directory: "python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db"
-3. Run the main() function in the train_classifier.py module - This will use the sqlite data table to train a machine learning model. The model is dumped to a pickle file. Example from root directory: "python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl"
+1. Run the main() function in the process_data.py module - This will extract the data from the csv source files, transform, and load the data to a sqlite data table. Example from root directory: "python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db"
+3. Run the main() function in the train_classifier.py module - This will use the sqlite data table to train a machine learning model. The model is dumped to a pickle file. Example from root directory: "python train_classifier.py DisasterResponse.db classifier.pkl"
 4. Run the terminal command "python run.py" in the app directory to run the web app
 5. Go to http://127.0.0.1/
 
